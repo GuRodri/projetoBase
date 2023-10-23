@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace HelperStockBeta.Domain.Entities
 {
-    public sealed class Category
+    public sealed class Category : Entity
     {
-        public int Id { get; private set; }
+        // public int Id { get; private set; } - REMOVIDO POR CONTA DA HERANÇA DO ENTITY
         public string Name { get; private set; }    
 
         //RELAÇÃO DE ENTIDADES
@@ -29,7 +29,10 @@ namespace HelperStockBeta.Domain.Entities
             ValidateDomain(name);
             Name = name;
         }
-
+        public void Update(string name)
+        {
+            ValidateDomain(name);
+        }
         public void ValidateDomain(string name)
         {
             DomainExceptionValidation.When(string.IsNullOrEmpty(name),
