@@ -25,7 +25,7 @@ public class ProductUnitTestBase
     #region Testes Negativos
 
     [Fact(DisplayName = "Id negative exception")]
-    public void CreatePorduct_NegativeParameterId_ResultException()
+    public void CreateProduct_NegativeParameterId_ResultException()
     {
         Action action = () => new Product(-1, "Product Test", "Melhor produto", 12, 8, "www.google.com.br");
         action.Should()
@@ -42,7 +42,7 @@ public class ProductUnitTestBase
             .WithMessage("Invalid name, name is required.");
     }
 
-    [Fact(DisplayName = "Category short name.")]
+    [Fact(DisplayName = "Product short name.")]
     public void CreateProduct_NameIsShort_ResultException()
     {
         Action action = () => new Product("Pr", "Melhor produto", 12, 8, "www.google.com.br");
