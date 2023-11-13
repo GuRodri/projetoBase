@@ -1,7 +1,5 @@
 ﻿using HelperStockBeta.Domain.Entities;
 using HelperStockBeta.Domain.Interface;
-using HelperStockBeta.Infra.Data.Context;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
