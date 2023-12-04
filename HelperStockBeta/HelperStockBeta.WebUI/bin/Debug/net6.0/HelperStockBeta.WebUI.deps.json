@@ -34,6 +34,7 @@
     ".NETCoreApp,Version=v6.0": {
       "HelperStockBeta.WebUI/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "HelperStockBeta.Infra.IoC": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.0.0",
           "Microsoft.AspNetCore.Antiforgery": "6.0.0.0",
@@ -1184,6 +1185,9 @@
         }
       },
       "HelperStockBeta.Domain/1.0.0": {
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
+        },
         "runtime": {
           "HelperStockBeta.Domain.dll": {}
         },
@@ -1193,6 +1197,7 @@
       },
       "HelperStockBeta.Infra.Data/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "HelperStockBeta.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
@@ -1207,6 +1212,7 @@
       },
       "HelperStockBeta.Infra.IoC/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "HelperStockBeta.Application": "1.0.0",
           "HelperStockBeta.Domain": "1.0.0",
           "HelperStockBeta.Infra.Data": "1.0.0"

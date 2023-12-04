@@ -1263,6 +1263,9 @@
       "HelperStockBeta.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
+        },
         "compile": {
           "bin/placeholder/HelperStockBeta.Domain.dll": {}
         },
@@ -1274,6 +1277,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "HelperStockBeta.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
@@ -1290,6 +1294,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "HelperStockBeta.Application": "1.0.0",
           "HelperStockBeta.Domain": "1.0.0",
           "HelperStockBeta.Infra.Data": "1.0.0"
@@ -3242,28 +3247,29 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "HelperStockBeta.Infra.IoC >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\victor.icoma\\.nuget\\packages\\": {},
+    "C:\\Users\\2971392311039\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repositorios\\projetoBase\\HelperStockBeta\\HelperStockBeta.WebUI\\HelperStockBeta.WebUI.csproj",
+      "projectUniqueName": "C:\\repositorio\\projetoBase\\HelperStockBeta\\HelperStockBeta.WebUI\\HelperStockBeta.WebUI.csproj",
       "projectName": "HelperStockBeta.WebUI",
-      "projectPath": "C:\\repositorios\\projetoBase\\HelperStockBeta\\HelperStockBeta.WebUI\\HelperStockBeta.WebUI.csproj",
-      "packagesPath": "C:\\Users\\victor.icoma\\.nuget\\packages\\",
-      "outputPath": "C:\\repositorios\\projetoBase\\HelperStockBeta\\HelperStockBeta.WebUI\\obj\\",
+      "projectPath": "C:\\repositorio\\projetoBase\\HelperStockBeta\\HelperStockBeta.WebUI\\HelperStockBeta.WebUI.csproj",
+      "packagesPath": "C:\\Users\\2971392311039\\.nuget\\packages\\",
+      "outputPath": "C:\\repositorio\\projetoBase\\HelperStockBeta\\HelperStockBeta.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\victor.icoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\2971392311039\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3279,8 +3285,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\repositorios\\projetoBase\\HelperStockBeta\\HelperStockBeta.Infra.IoC\\HelperStockBeta.Infra.IoC.csproj": {
-              "projectPath": "C:\\repositorios\\projetoBase\\HelperStockBeta\\HelperStockBeta.Infra.IoC\\HelperStockBeta.Infra.IoC.csproj"
+            "C:\\repositorio\\projetoBase\\HelperStockBeta\\HelperStockBeta.Infra.IoC\\HelperStockBeta.Infra.IoC.csproj": {
+              "projectPath": "C:\\repositorio\\projetoBase\\HelperStockBeta\\HelperStockBeta.Infra.IoC\\HelperStockBeta.Infra.IoC.csproj"
             }
           }
         }
@@ -3295,6 +3301,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          },
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
             "version": "[3.0.0, )"

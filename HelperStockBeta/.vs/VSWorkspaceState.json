@@ -1,0 +1,9 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HelperStockBeta.Application\\DTOs",
+    "\\HelperStockBeta.Infra.IoC"
+  ],
+  "SelectedNode": "\\HelperStockBeta.Infra.IoC\\DependencyInjection.cs",
+  "PreviewInSolutionExplorer": false
+}
